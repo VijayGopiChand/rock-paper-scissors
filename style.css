@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+   text-align: center;
+}
+h1{
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  font-size:xx-large;
+  font-family:sans-serif;
+}
+.container
+{
+  height: 50vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.choice{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+img{
+ height: 150px;
+ width:150px;
+ border-radius: 50%;
+ border: none;
+}
+
+img:hover{
+  cursor: pointer;
+  box-shadow: 5px 15px  20px  blueviolet;
+}
+.scoreBoard{
+  height: 20vh;
+  display: flex;
+  align-items:center;
+  gap: 5rem;
+  justify-content: center;
+}
+.score{
+  border: 5px solid rgb(232, 217, 215);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgb(138, 43, 226);
+}
+#user,#comp{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size:x-large;
+  text-align: center;
+}
+p,p{
+  color: rgb(130, 4, 126);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+footer{
+  text-align: center;
+  margin-top: 20px;
+}
+.msg-container{
+  margin-top: 2rem;
+}
+#msg{
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 5rem;
+  font-size: 2rem;
+  display: inline;
+  border-radius: 10px;
+  padding: 10px;
+}
